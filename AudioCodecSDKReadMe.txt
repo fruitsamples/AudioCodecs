@@ -4,7 +4,7 @@ Contained herein is an example of an audio codec and its accompanying SMAC compo
 
 The project builds four components: an IMA audio decoder (adec), an IMA audio encoder (aenc), and SMAC (Sound Manager Audio Component) components for both (sdec and scom, respectively).
 
-The project should built as is in Project Builder 2.1 or XCode. The resulting AudioCodecSDK.component can be installed in /Library/Audio/Plug-Ins/Components. It contains the same IMA audio codec that's in /System/Library/Components/AudioCodecs.component. It will add the SMAC scom and sdec. You can verify it's installed under QuickTime Pro by checking the Export to QuickTime Movie, Options, (Sound) Settings, Compressor. The standard "IMA 4:1" will change to "Apple IMA Audio."
+The project should built as-is in XCode. The resulting AudioCodecSDK.component can be installed in /Library/Components. It contains the same IMA audio codec that's in /System/Library/Components/AudioCodecs.component. It will add the SMAC scom and sdec.
 
 IMA Audio Codec
 
