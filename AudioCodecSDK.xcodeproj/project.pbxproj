@@ -171,10 +171,6 @@
 			isa = PBXBuildFile;
 			fileRef = 07EF4B5004F1904C00CA25C5;
 		};
-		3E12B0BF079B860B00CAF683 = {
-			isa = PBXBuildFile;
-			fileRef = 07EF4C2804F19AA700CA25C5;
-		};
 		3E12B0C0079B860B00CAF683 = {
 			isa = PBXBuildFile;
 			fileRef = 07DBCD2C04F6EADF00CA25C5;
@@ -223,69 +219,15 @@
 			isa = PBXBuildFile;
 			fileRef = 07EF4B4004F1904C00CA25C5;
 		};
-		A903EDC4088C663000352957 = {
+		A9DB33280BE28B2A00261A30 = {
 			isa = PBXBuildFile;
-			fileRef = A903EDC3088C663000352957;
+			fileRef = A9DB33260BE28B2A00261A30;
 		};
-		A903EE51088C6C0E00352957 = {
+		A9DB33290BE28B2A00261A30 = {
 			isa = PBXBuildFile;
-			fileRef = A903EE4E088C6C0E00352957;
-		};
-		A903EE52088C6C0E00352957 = {
-			isa = PBXBuildFile;
-			fileRef = A903EE4F088C6C0E00352957;
-		};
-		A903EE53088C6C0E00352957 = {
-			isa = PBXBuildFile;
-			fileRef = A903EE50088C6C0E00352957;
+			fileRef = A9DB33270BE28B2A00261A30;
 		};
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		F5A548DC02879EB701000102 = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = (
-					"\U0001-DCoreAudio_Debug=1",
-					"-DIS_COMPILER_WORKING=0",
-				);
-				PROFILING_CODE = NO;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		F5A548DD02879EB701000102 = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUGGING_SYMBOLS = NO;
-				OPTIMIZATION_CFLAGS = "-O3";
-				PROFILING_CODE = NO;
-			};
-			name = Release;
-		};
-		F5A548E90287A0E501000102 = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				OPTIMIZATION_CFLAGS = "-O3";
-				OTHER_CFLAGS = (
-					"\U0001-DCoreAudio_Debug=1",
-					"-DIS_COMPILER_WORKING=0",
-				);
-				PROFILING_CODE = NO;
-			};
-			name = "Development-Unoptimized";
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXFileReference section */
 		0724C23C05B4963A00AC8248 = {
@@ -424,13 +366,6 @@
 			path = SMACsdec.h;
 			sourceTree = "<group>";
 		};
-		07EF4C2804F19AA700CA25C5 = {
-			isa = PBXFileReference;
-			fileEncoding = 30;
-			lastKnownFileType = sourcecode.c.c;
-			path = AudioCodecComponentGlue.c;
-			sourceTree = SOURCE_ROOT;
-		};
 		0A9B063104D728440070DEF0 = {
 			isa = PBXFileReference;
 			fileEncoding = 30;
@@ -528,32 +463,18 @@
 			path = CAMutex.h;
 			sourceTree = "<group>";
 		};
-		A903EDC3088C663000352957 = {
-			isa = PBXFileReference;
-			fileEncoding = 30;
-			lastKnownFileType = sourcecode.c.h;
-			path = ACVersions_IMA.h;
-			sourceTree = "<group>";
-		};
-		A903EE4E088C6C0E00352957 = {
+		A9DB33260BE28B2A00261A30 = {
 			isa = PBXFileReference;
 			fileEncoding = 30;
 			lastKnownFileType = sourcecode.cpp.cpp;
 			path = CAVectorUnit.cpp;
 			sourceTree = "<group>";
 		};
-		A903EE4F088C6C0E00352957 = {
+		A9DB33270BE28B2A00261A30 = {
 			isa = PBXFileReference;
 			fileEncoding = 30;
 			lastKnownFileType = sourcecode.c.h;
 			path = CAVectorUnit.h;
-			sourceTree = "<group>";
-		};
-		A903EE50088C6C0E00352957 = {
-			isa = PBXFileReference;
-			fileEncoding = 30;
-			lastKnownFileType = sourcecode.c.h;
-			path = CAVectorUnitTypes.h;
 			sourceTree = "<group>";
 		};
 		F51A93000287A1A201000102 = {
@@ -590,6 +511,12 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
 			path = ACCodecDispatchTypes.h;
+			sourceTree = "<group>";
+		};
+		F51A93060287A1A201000102 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.rez;
+			path = ACComponentResources.r;
 			sourceTree = "<group>";
 		};
 		F51A93070287A1A201000102 = {
@@ -716,9 +643,11 @@
 			children = (
 				07EF4B3A04F1904C00CA25C5,
 				07EF4B3B04F1904C00CA25C5,
+				07EF4B3C04F1904C00CA25C5,
 				07EF4B3D04F1904C00CA25C5,
 				07EF4B3E04F1904C00CA25C5,
 				07EF4B3F04F1904C00CA25C5,
+				07EF4B4004F1904C00CA25C5,
 				07EF4B4104F1904C00CA25C5,
 				07EF4B4C04F1904C00CA25C5,
 				07EF4B4D04F1904C00CA25C5,
@@ -728,8 +657,6 @@
 				07EF4B5104F1904C00CA25C5,
 				07DBCD2C04F6EADF00CA25C5,
 				07DBCE0E04F6EC1B00CA25C5,
-				07EF4B4004F1904C00CA25C5,
-				07EF4B3C04F1904C00CA25C5,
 			);
 			path = SMAC;
 			sourceTree = SOURCE_ROOT;
@@ -743,6 +670,7 @@
 				F51A93030287A1A201000102,
 				F51A93040287A1A201000102,
 				F51A93050287A1A201000102,
+				F51A93060287A1A201000102,
 				F51A93070287A1A201000102,
 				F51A93080287A1A201000102,
 				F51A93090287A1A201000102,
@@ -755,15 +683,14 @@
 		F51A930A0287A1A201000102 = {
 			isa = PBXGroup;
 			children = (
-				A903EDC3088C663000352957,
 				F51A930B0287A1A201000102,
 				F51A930C0287A1A201000102,
 				F51A930D0287A1A201000102,
 				F51A930E0287A1A201000102,
 				F51A930F0287A1A201000102,
+				0AF5E2D904D72C6600302C2B,
 				F51A93110287A1A201000102,
 				F51A93120287A1A201000102,
-				0AF5E2D904D72C6600302C2B,
 				0AF5E2DA04D72C6600302C2B,
 			);
 			name = IMA4;
@@ -773,9 +700,6 @@
 		F51A93140287A1A201000102 = {
 			isa = PBXGroup;
 			children = (
-				A903EE4E088C6C0E00352957,
-				A903EE4F088C6C0E00352957,
-				A903EE50088C6C0E00352957,
 				3E4D6C120795A1740075C940,
 				3E4D6C110795A1740075C940,
 				F51A93240287A1A201000102,
@@ -791,6 +715,8 @@
 				A3B4AD5E05B37EE000EECA1A,
 				A3B4AD6005B37EE000EECA1A,
 				A3B4AD5F05B37EE000EECA1A,
+				A9DB33260BE28B2A00261A30,
+				A9DB33270BE28B2A00261A30,
 			);
 			name = PublicUtility;
 			path = /Developer/Examples/CoreAudio/PublicUtility;
@@ -817,7 +743,6 @@
 		F5A548EA0287A13101000102 = {
 			isa = PBXGroup;
 			children = (
-				07EF4C2804F19AA700CA25C5,
 				F51A92FF0287A1A201000102,
 				F51A930A0287A1A201000102,
 				F51A93140287A1A201000102,
@@ -868,9 +793,7 @@
 				3E12B0A9079B860B00CAF683,
 				3E12B0AA079B860B00CAF683,
 				3E12B0AC079B860B00CAF683,
-				A903EDC4088C663000352957,
-				A903EE52088C6C0E00352957,
-				A903EE53088C6C0E00352957,
+				A9DB33290BE28B2A00261A30,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,7 +802,7 @@
 /* Begin PBXNativeTarget section */
 		3E12B091079B860B00CAF683 = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A903ED9D088C653F00352957;
+			buildConfigurationList = A9DB32F40BE289E100261A30;
 			buildPhases = (
 				3E12B092079B860B00CAF683,
 				3E12B0AD079B860B00CAF683,
@@ -889,28 +812,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				EXPORTED_SYMBOLS_FILE = Codecs/IMA4/ACAppleIMA4Codec.exp;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_CARBON=1";
-				HEADER_SEARCH_PATHS = (
-					.,
-					/System/Library/Frameworks/AudioUnit.framework/Versions/A/Headers,
-				);
-				INFOPLIST_FILE = "Info-AudioCodecSDK.plist";
-				OTHER_CFLAGS = "-DIS_COMPILER_WORKING=0";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "-D \"TARGET_REZ_CARBON_MACHO=1\" -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers -I ACPublic";
-				PRODUCT_NAME = AudioCodecSDK;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wall";
-				WRAPPER_EXTENSION = component;
-			};
 			dependencies = (
 			);
 			name = AudioCodecSDK;
@@ -924,14 +825,7 @@
 /* Begin PBXProject section */
 		F5A548DE02879EB701000102 = {
 			isa = PBXProject;
-			buildConfigurationList = A903EDA2088C653F00352957;
-			buildSettings = {
-			};
-			buildStyles = (
-				F5A548DD02879EB701000102,
-				F5A548DC02879EB701000102,
-				F5A548E90287A0E501000102,
-			);
+			buildConfigurationList = A9DB32F90BE289E100261A30;
 			hasScannedForEncodings = 1;
 			mainGroup = F5A548DA02879EB701000102;
 			productRefGroup = F5A548E802879F3901000102;
@@ -987,29 +881,30 @@
 				3E12B0BC079B860B00CAF683,
 				3E12B0BD079B860B00CAF683,
 				3E12B0BE079B860B00CAF683,
-				3E12B0BF079B860B00CAF683,
 				3E12B0C0079B860B00CAF683,
 				3E12B0C1079B860B00CAF683,
 				3E12B0C2079B860B00CAF683,
 				3E12B0C3079B860B00CAF683,
 				3E12B0C4079B860B00CAF683,
-				A903EE51088C6C0E00352957,
+				A9DB33280BE28B2A00261A30,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A903ED9E088C653F00352957 = {
+		A9DB32F50BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUGGING_SYMBOLS = NO;
 				EXPORTED_SYMBOLS_FILE = Codecs/IMA4/ACAppleIMA4Codec.exp;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_CARBON=1";
@@ -1021,7 +916,7 @@
 				OPTIMIZATION_CFLAGS = "-O3";
 				OTHER_CFLAGS = "-DIS_COMPILER_WORKING=0";
 				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers";
+				OTHER_REZFLAGS = "-I / -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
 				PRODUCT_NAME = AudioCodecSDK;
 				PROFILING_CODE = NO;
 				SECTORDER_FLAGS = "";
@@ -1030,16 +925,18 @@
 			};
 			name = Release;
 		};
-		A903ED9F088C653F00352957 = {
+		A9DB32F60BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				EXPORTED_SYMBOLS_FILE = Codecs/IMA4/ACAppleIMA4Codec.exp;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -1057,7 +954,7 @@
 					"-DIS_COMPILER_WORKING=0",
 				);
 				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers";
+				OTHER_REZFLAGS = "-I / -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
 				PRODUCT_NAME = AudioCodecSDK;
 				PROFILING_CODE = NO;
 				SECTORDER_FLAGS = "";
@@ -1067,16 +964,18 @@
 			};
 			name = Development;
 		};
-		A903EDA0088C653F00352957 = {
+		A9DB32F70BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				EXPORTED_SYMBOLS_FILE = Codecs/IMA4/ACAppleIMA4Codec.exp;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_CARBON=1";
@@ -1092,7 +991,7 @@
 					"-DIS_COMPILER_WORKING=0",
 				);
 				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers";
+				OTHER_REZFLAGS = "-I / -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
 				PRODUCT_NAME = AudioCodecSDK;
 				PROFILING_CODE = NO;
 				SECTORDER_FLAGS = "";
@@ -1101,14 +1000,16 @@
 			};
 			name = "Development-Unoptimized";
 		};
-		A903EDA1088C653F00352957 = {
+		A9DB32F80BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXPORTED_SYMBOLS_FILE = Codecs/IMA4/ACAppleIMA4Codec.exp;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
-					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_CARBON=1";
@@ -1119,7 +1020,7 @@
 				INFOPLIST_FILE = "Info-AudioCodecSDK.plist";
 				OTHER_CFLAGS = "-DIS_COMPILER_WORKING=0";
 				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers";
+				OTHER_REZFLAGS = "-I / -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
 				PRODUCT_NAME = AudioCodecSDK;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = "-Wall";
@@ -1127,51 +1028,55 @@
 			};
 			name = Default;
 		};
-		A903EDA3088C653F00352957 = {
+		A9DB32FA0BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Release;
 		};
-		A903EDA4088C653F00352957 = {
+		A9DB32FB0BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Development;
 		};
-		A903EDA5088C653F00352957 = {
+		A9DB32FC0BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = "Development-Unoptimized";
 		};
-		A903EDA6088C653F00352957 = {
+		A9DB32FD0BE289E100261A30 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Default;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A903ED9D088C653F00352957 = {
+		A9DB32F40BE289E100261A30 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A903ED9E088C653F00352957,
-				A903ED9F088C653F00352957,
-				A903EDA0088C653F00352957,
-				A903EDA1088C653F00352957,
+				A9DB32F50BE289E100261A30,
+				A9DB32F60BE289E100261A30,
+				A9DB32F70BE289E100261A30,
+				A9DB32F80BE289E100261A30,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		A903EDA2088C653F00352957 = {
+		A9DB32F90BE289E100261A30 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A903EDA3088C653F00352957,
-				A903EDA4088C653F00352957,
-				A903EDA5088C653F00352957,
-				A903EDA6088C653F00352957,
+				A9DB32FA0BE289E100261A30,
+				A9DB32FB0BE289E100261A30,
+				A9DB32FC0BE289E100261A30,
+				A9DB32FD0BE289E100261A30,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
