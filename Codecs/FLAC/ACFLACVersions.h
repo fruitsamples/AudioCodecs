@@ -39,7 +39,7 @@
 			POSSIBILITY OF SUCH DAMAGE.
 */
 /*=============================================================================
-	ACMVersions.h
+	ACFLACVersions.h
 	AudioCodecs
 
 	Created by Eric M. Aldrich I on Mon Oct 04 2004.
@@ -47,10 +47,22 @@
 
 =============================================================================*/
 
-#if !defined(__ACVersions_IMA_h__)
-#define __ACVersions_IMA_h__
+#if !defined(__ACFLACVersions_h__)
+#define __ACFLACVersions_h__
 
-#define kIMA4adecVersion			0x00010002
-#define kIMA4aencVersion			0x00010002
+// Rather than have this appear in 5 different places and risk things getting 
+// out of sync, it's better to have it all in one place
+// Note the use of #ifdef instead of #if -- this is necessary since this file gets
+// included by .r files that do not support #if.
+
+// Will bump AMR up to 0x00010100 when we add AMR Wideband
+
+#ifdef DEBUG
+#define kFLACadecVersion			(0x00FF0001)
+#define kFLACaencVersion			(0x00FF0001)
+#else
+#define kFLACadecVersion			(0x00010001)
+#define kFLACaencVersion			(0x00010001)
+#endif
 
 #endif

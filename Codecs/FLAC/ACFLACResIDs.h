@@ -39,18 +39,14 @@
 			POSSIBILITY OF SUCH DAMAGE.
 */
 /*=============================================================================
-	ACMVersions.h
-	AudioCodecs
-
-	Created by Eric M. Aldrich I on Mon Oct 04 2004.
-	Copyright (c) 2004 Apple Computer Inc. All rights reserved.
+	ACFLACResIDs.h
 
 =============================================================================*/
+#if !defined(__ACFLACResIDs_h__)
+#define __ACFLACResIDs_h__
 
-#if !defined(__ACVersions_IMA_h__)
-#define __ACVersions_IMA_h__
-
-#define kIMA4adecVersion			0x00010002
-#define kIMA4aencVersion			0x00010002
+#define	kFLACadecResID				-20822
+#define	kFLACaencResID				-20824
 
 #endif
+

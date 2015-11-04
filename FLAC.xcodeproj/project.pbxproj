@@ -1,0 +1,1825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AAAD8A066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 00C8656205ACEFAF00A9C28C;
+		};
+		00AAAD97066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = F5823D50026E445801CA2184;
+		};
+		00AAAD98066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = F5823D52026E445801CA2184;
+		};
+		00AAAE13066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 9136719704574F9F00CA2136;
+		};
+		00AAAE17066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 0A9B062B04D719E70070DEF0;
+		};
+		00AAAE19066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 00C8654D05ACEA0500A9C28C;
+		};
+		00AAAE1A066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 00C8655105ACEA3D00A9C28C;
+		};
+		00AAAE1B066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 07C68D54053B6F7B00CA25C5;
+		};
+		00AAAE1C066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 07C68D55053B6F7B00CA25C5;
+		};
+		00AAAE1F066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = 00C8656105ACEFAF00A9C28C;
+		};
+		00AAAE37066694F1000669EC = {
+			isa = PBXBuildFile;
+			fileRef = F5B34E82026E54FF01CA2184;
+		};
+		073C8AC70882F605001A4B0C = {
+			isa = PBXBuildFile;
+			fileRef = 073C8AC40882F605001A4B0C;
+		};
+		073C8AC80882F605001A4B0C = {
+			isa = PBXBuildFile;
+			fileRef = 073C8AC50882F605001A4B0C;
+		};
+		073C8AC90882F605001A4B0C = {
+			isa = PBXBuildFile;
+			fileRef = 073C8AC60882F605001A4B0C;
+		};
+		076A23B20A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A237B0A363237009AB03C;
+		};
+		076A23B30A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A237C0A363237009AB03C;
+		};
+		076A23B40A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A237D0A363237009AB03C;
+		};
+		076A23B70A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23800A363237009AB03C;
+		};
+		076A23B80A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23810A363237009AB03C;
+		};
+		076A23B90A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23820A363237009AB03C;
+		};
+		076A23DA0A363238009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23B00A363238009AB03C;
+		};
+		076A23E20A3632A9009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23AF0A363238009AB03C;
+		};
+		076A23E30A3632A9009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23AE0A363238009AB03C;
+		};
+		076A23E60A3632AC009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23A60A363238009AB03C;
+		};
+		076A23E70A3632AC009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23A50A363238009AB03C;
+		};
+		076A23E80A3632AD009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23A40A363238009AB03C;
+		};
+		076A23E90A3632AE009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23A30A363238009AB03C;
+		};
+		076A23EA0A3632AE009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A23A20A363238009AB03C;
+		};
+		076A285E0A365548009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A28520A365548009AB03C;
+		};
+		076A28600A365548009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A28540A365548009AB03C;
+		};
+		076A28620A365548009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A28560A365548009AB03C;
+		};
+		076A28630A365548009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A28570A365548009AB03C;
+		};
+		076A28650A365548009AB03C = {
+			isa = PBXBuildFile;
+			fileRef = 076A28590A365548009AB03C;
+		};
+		07C6112E0C3AE252005376A8 = {
+			isa = PBXBuildFile;
+			fileRef = 07C6112C0C3AE252005376A8;
+		};
+		07C6112F0C3AE252005376A8 = {
+			isa = PBXBuildFile;
+			fileRef = 07C6112D0C3AE252005376A8;
+		};
+		07C611380C3AE279005376A8 = {
+			isa = PBXBuildFile;
+			fileRef = 07C611370C3AE279005376A8;
+		};
+		07DE6BA90B8FB69B00F703CF = {
+			isa = PBXBuildFile;
+			fileRef = F5823D54026E445801CA2184;
+		};
+		3E4AD0F507959DB20054EF45 = {
+			isa = PBXBuildFile;
+			fileRef = 3E4AD0C607959DB20054EF45;
+		};
+		3E4AD15707959DDC0054EF45 = {
+			isa = PBXBuildFile;
+			fileRef = 3E4AD12807959DDC0054EF45;
+		};
+		3E4AD15907959DDC0054EF45 = {
+			isa = PBXBuildFile;
+			fileRef = 3E4AD13907959DDC0054EF45;
+		};
+		3E4AD19C07959E5A0054EF45 = {
+			isa = PBXBuildFile;
+			fileRef = 3E4AD18607959E5A0054EF45;
+		};
+		F7E8AA250AE0095B0024FF83 = {
+			isa = PBXBuildFile;
+			fileRef = 076A23780A363200009AB03C;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076A2B730A3A3A4A009AB03C = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F541E44A026E422A01CA2184;
+			proxyType = 1;
+			remoteGlobalIDString = 076A23770A363200009AB03C;
+			remoteInfo = libFLAC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A91A150479ADB600CA2094 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAException.h;
+			sourceTree = "<group>";
+		};
+		00AAAE57066694F2000669EC = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = FLAC.component;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C8654D05ACEA0500A9C28C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAGuard.cpp;
+			sourceTree = "<group>";
+		};
+		00C8655105ACEA3D00A9C28C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAHostTimeBase.cpp;
+			sourceTree = "<group>";
+		};
+		00C8656105ACEFAF00A9C28C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAMutex.cpp;
+			sourceTree = "<group>";
+		};
+		00C8656205ACEFAF00A9C28C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAMutex.h;
+			sourceTree = "<group>";
+		};
+		070BB7C80C3488290067A91E = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			name = ACFLACVersions.h;
+			path = Codecs/FLAC/ACFLACVersions.h;
+			sourceTree = SOURCE_ROOT;
+		};
+		0734FD8C0C35BD94000559CD = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = text.plist.xml;
+			path = "Info-FLAC.plist";
+			sourceTree = "<group>";
+		};
+		073C8AC40882F605001A4B0C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAVectorUnit.cpp;
+			sourceTree = "<group>";
+		};
+		073C8AC50882F605001A4B0C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAVectorUnit.h;
+			sourceTree = "<group>";
+		};
+		073C8AC60882F605001A4B0C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAVectorUnitTypes.h;
+			sourceTree = "<group>";
+		};
+		0748CAA70C3C5915005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = bitreader.h;
+			sourceTree = "<group>";
+		};
+		0748CAA90C3C5921005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = bitwriter.h;
+			sourceTree = "<group>";
+		};
+		0748CAAB0C3C5933005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = window.h;
+			sourceTree = "<group>";
+		};
+		0748CADB0C3C59D3005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = picture.h;
+			sourceTree = "<group>";
+		};
+		076A23780A363200009AB03C = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			path = libFLAC.a;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		076A237B0A363237009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = bitmath.c;
+			sourceTree = "<group>";
+		};
+		076A237C0A363237009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = cpu.c;
+			sourceTree = "<group>";
+		};
+		076A237D0A363237009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = crc.c;
+			sourceTree = "<group>";
+		};
+		076A23800A363237009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = fixed.c;
+			sourceTree = "<group>";
+		};
+		076A23810A363237009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = float.c;
+			sourceTree = "<group>";
+		};
+		076A23820A363237009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = format.c;
+			sourceTree = "<group>";
+		};
+		076A238C0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = bitmath.h;
+			sourceTree = "<group>";
+		};
+		076A238D0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = cpu.h;
+			sourceTree = "<group>";
+		};
+		076A238E0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = crc.h;
+			sourceTree = "<group>";
+		};
+		076A238F0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = fixed.h;
+			sourceTree = "<group>";
+		};
+		076A23900A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = float.h;
+			sourceTree = "<group>";
+		};
+		076A23910A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = format.h;
+			sourceTree = "<group>";
+		};
+		076A23920A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = lpc.h;
+			sourceTree = "<group>";
+		};
+		076A23930A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = md5.h;
+			sourceTree = "<group>";
+		};
+		076A23940A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = memory.h;
+			sourceTree = "<group>";
+		};
+		076A23950A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = metadata.h;
+			sourceTree = "<group>";
+		};
+		076A23960A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = stream_encoder_framing.h;
+			sourceTree = "<group>";
+		};
+		076A239D0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = stream_decoder.h;
+			sourceTree = "<group>";
+		};
+		076A239E0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = stream_encoder.h;
+			sourceTree = "<group>";
+		};
+		076A23A20A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = lpc.c;
+			sourceTree = "<group>";
+		};
+		076A23A30A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = md5.c;
+			sourceTree = "<group>";
+		};
+		076A23A40A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = memory.c;
+			sourceTree = "<group>";
+		};
+		076A23A50A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = metadata_iterators.c;
+			sourceTree = "<group>";
+		};
+		076A23A60A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = metadata_object.c;
+			sourceTree = "<group>";
+		};
+		076A23AE0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = stream_decoder.c;
+			sourceTree = "<group>";
+		};
+		076A23AF0A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = stream_encoder.c;
+			sourceTree = "<group>";
+		};
+		076A23B00A363238009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = stream_encoder_framing.c;
+			sourceTree = "<group>";
+		};
+		076A23FC0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = assert.h;
+			sourceTree = "<group>";
+		};
+		076A23FD0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = callback.h;
+			sourceTree = "<group>";
+		};
+		076A23FE0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = export.h;
+			sourceTree = "<group>";
+		};
+		076A24010A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = format.h;
+			sourceTree = "<group>";
+		};
+		076A24050A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = metadata.h;
+			sourceTree = "<group>";
+		};
+		076A24060A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ordinals.h;
+			sourceTree = "<group>";
+		};
+		076A24090A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = stream_decoder.h;
+			sourceTree = "<group>";
+		};
+		076A240A0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = stream_encoder.h;
+			sourceTree = "<group>";
+		};
+		076A240C0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = getopt.h;
+			sourceTree = "<group>";
+		};
+		076A240E0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = cuesheet.h;
+			sourceTree = "<group>";
+		};
+		076A240F0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = file.h;
+			sourceTree = "<group>";
+		};
+		076A24130A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = replaygain.h;
+			sourceTree = "<group>";
+		};
+		076A24140A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = seektable.h;
+			sourceTree = "<group>";
+		};
+		076A24150A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = grabbag.h;
+			sourceTree = "<group>";
+		};
+		076A24190A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = replaygain_analysis.h;
+			sourceTree = "<group>";
+		};
+		076A241A0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = replaygain_synthesis.h;
+			sourceTree = "<group>";
+		};
+		076A241B0A36341E009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = utf8.h;
+			sourceTree = "<group>";
+		};
+		076A28520A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ACFLACCodec.cpp;
+			sourceTree = "<group>";
+		};
+		076A28530A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACFLACCodec.h;
+			sourceTree = "<group>";
+		};
+		076A28540A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ACFLACDecoder.cpp;
+			sourceTree = "<group>";
+		};
+		076A28550A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACFLACDecoder.h;
+			sourceTree = "<group>";
+		};
+		076A28560A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.rez;
+			path = ACFLACDecoder.r;
+			sourceTree = "<group>";
+		};
+		076A28570A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ACFLACEncoder.cpp;
+			sourceTree = "<group>";
+		};
+		076A28580A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACFLACEncoder.h;
+			sourceTree = "<group>";
+		};
+		076A28590A365548009AB03C = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.rez;
+			path = ACFLACEncoder.r;
+			sourceTree = "<group>";
+		};
+		07764F760C3B12C0005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = text;
+			name = README.txt;
+			path = Codecs/FLAC/README.txt;
+			sourceTree = SOURCE_ROOT;
+		};
+		077BE24F04FE826600CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAGuard.h;
+			sourceTree = "<group>";
+		};
+		077BE25104FE826600CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAHostTimeBase.h;
+			sourceTree = "<group>";
+		};
+		07C6112C0C3AE252005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = bitreader.c;
+			sourceTree = "<group>";
+		};
+		07C6112D0C3AE252005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = bitwriter.c;
+			sourceTree = "<group>";
+		};
+		07C611370C3AE279005376A8 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.c;
+			path = window.c;
+			sourceTree = "<group>";
+		};
+		07C68D54053B6F7B00CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CACFArray.cpp;
+			sourceTree = "<group>";
+		};
+		07C68D55053B6F7B00CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CACFDictionary.cpp;
+			sourceTree = "<group>";
+		};
+		07C68D5C053B6FAB00CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CACFArray.h;
+			sourceTree = "<group>";
+		};
+		07C68D5D053B6FAB00CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CACFDictionary.h;
+			sourceTree = "<group>";
+		};
+		07C68D5E053B6FAB00CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CACFNumber.h;
+			sourceTree = "<group>";
+		};
+		07C68D5F053B6FAB00CA25C5 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CACFString.h;
+			sourceTree = "<group>";
+		};
+		07D7535D0B8FA3D900C48286 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.exports;
+			path = FLAC.exp;
+			sourceTree = "<group>";
+		};
+		07DE6A650B8FA95B00F703CF = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACCompatibility.h;
+			sourceTree = "<group>";
+		};
+		07FA8C1F0C3598730072A202 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACFLACResIDs.h;
+			sourceTree = "<group>";
+		};
+		07FA8C3D0C359A7F0072A202 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACCodecDispatchTypes.h;
+			sourceTree = "<group>";
+		};
+		0A9B062B04D719E70070DEF0 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = GetCodecBundle.cpp;
+			sourceTree = "<group>";
+		};
+		0A9B062C04D719E70070DEF0 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = GetCodecBundle.h;
+			sourceTree = "<group>";
+		};
+		3E4AD0C607959DB20054EF45 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CABundleLocker.cpp;
+			sourceTree = "<group>";
+		};
+		3E4AD0D707959DB20054EF45 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CABundleLocker.h;
+			sourceTree = "<group>";
+		};
+		3E4AD12807959DDC0054EF45 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CACFNumber.cpp;
+			sourceTree = "<group>";
+		};
+		3E4AD13907959DDC0054EF45 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CACFString.cpp;
+			sourceTree = "<group>";
+		};
+		3E4AD18607959E5A0054EF45 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CADebugMacros.cpp;
+			sourceTree = "<group>";
+		};
+		9136719704574F9F00CA2136 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAStreamBasicDescription.cpp;
+			sourceTree = "<group>";
+		};
+		9136719804574F9F00CA2136 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAStreamBasicDescription.h;
+			sourceTree = "<group>";
+		};
+		F5823D50026E445801CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ACBaseCodec.cpp;
+			sourceTree = "<group>";
+		};
+		F5823D51026E445801CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACBaseCodec.h;
+			sourceTree = "<group>";
+		};
+		F5823D52026E445801CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ACCodec.cpp;
+			sourceTree = "<group>";
+		};
+		F5823D53026E445801CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACCodec.h;
+			sourceTree = "<group>";
+		};
+		F5823D54026E445801CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = ACCodecDispatch.h;
+			sourceTree = "<group>";
+		};
+		F5823F9A026E447001CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CADebugMacros.h;
+			sourceTree = "<group>";
+		};
+		F5823F9B026E447001CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CADebugPrintf.h;
+			sourceTree = "<group>";
+		};
+		F5823F9E026E447001CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CALogMacros.h;
+			sourceTree = "<group>";
+		};
+		F5823FA1026E447001CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CASampleTools.cpp;
+			sourceTree = "<group>";
+		};
+		F5823FA2026E447001CA2184 = {
+			isa = PBXFileReference;
+			fileEncoding = 30;
+			lastKnownFileType = sourcecode.c.h;
+			path = CASampleTools.h;
+			sourceTree = "<group>";
+		};
+		F5B34E82026E54FF01CA2184 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			sourceTree = "<absolute>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00AAAE36066694F1000669EC = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AAAE37066694F1000669EC,
+				F7E8AA250AE0095B0024FF83,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A23760A363200009AB03C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076A22E70A362FF1009AB03C = {
+			isa = PBXGroup;
+			children = (
+				0734FD8C0C35BD94000559CD,
+				07D7535D0B8FA3D900C48286,
+				07FA8C1F0C3598730072A202,
+				070BB7C80C3488290067A91E,
+				076A28510A365548009AB03C,
+				076A23F90A36341E009AB03C,
+				076A23790A363237009AB03C,
+			);
+			path = FLAC;
+			sourceTree = "<group>";
+		};
+		076A23790A363237009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A237B0A363237009AB03C,
+				07C6112C0C3AE252005376A8,
+				07C6112D0C3AE252005376A8,
+				076A237C0A363237009AB03C,
+				076A237D0A363237009AB03C,
+				076A23800A363237009AB03C,
+				076A23810A363237009AB03C,
+				076A23820A363237009AB03C,
+				076A23880A363238009AB03C,
+				076A23A20A363238009AB03C,
+				076A23A30A363238009AB03C,
+				076A23A40A363238009AB03C,
+				076A23A50A363238009AB03C,
+				076A23A60A363238009AB03C,
+				076A23AE0A363238009AB03C,
+				076A23AF0A363238009AB03C,
+				076A23B00A363238009AB03C,
+				07C611370C3AE279005376A8,
+			);
+			path = libFLAC;
+			sourceTree = "<group>";
+		};
+		076A23880A363238009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A23890A363238009AB03C,
+				076A23970A363238009AB03C,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		076A23890A363238009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A238C0A363238009AB03C,
+				0748CAA70C3C5915005376A8,
+				0748CAA90C3C5921005376A8,
+				076A238D0A363238009AB03C,
+				076A238E0A363238009AB03C,
+				076A238F0A363238009AB03C,
+				076A23900A363238009AB03C,
+				076A23910A363238009AB03C,
+				076A23920A363238009AB03C,
+				076A23930A363238009AB03C,
+				076A23940A363238009AB03C,
+				076A23950A363238009AB03C,
+				076A23960A363238009AB03C,
+				0748CAAB0C3C5933005376A8,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		076A23970A363238009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A239D0A363238009AB03C,
+				076A239E0A363238009AB03C,
+			);
+			path = protected;
+			sourceTree = "<group>";
+		};
+		076A23F90A36341E009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A23FA0A36341E009AB03C,
+				076A240B0A36341E009AB03C,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		076A23FA0A36341E009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A23FC0A36341E009AB03C,
+				076A23FD0A36341E009AB03C,
+				076A23FE0A36341E009AB03C,
+				076A24010A36341E009AB03C,
+				076A24050A36341E009AB03C,
+				076A24060A36341E009AB03C,
+				076A24090A36341E009AB03C,
+				076A240A0A36341E009AB03C,
+			);
+			path = FLAC;
+			sourceTree = "<group>";
+		};
+		076A240B0A36341E009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A240C0A36341E009AB03C,
+				076A240D0A36341E009AB03C,
+				076A24150A36341E009AB03C,
+				076A24190A36341E009AB03C,
+				076A241A0A36341E009AB03C,
+				076A241B0A36341E009AB03C,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		076A240D0A36341E009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A240E0A36341E009AB03C,
+				076A240F0A36341E009AB03C,
+				0748CADB0C3C59D3005376A8,
+				076A24130A36341E009AB03C,
+				076A24140A36341E009AB03C,
+			);
+			path = grabbag;
+			sourceTree = "<group>";
+		};
+		076A28510A365548009AB03C = {
+			isa = PBXGroup;
+			children = (
+				076A28520A365548009AB03C,
+				076A28530A365548009AB03C,
+				076A28540A365548009AB03C,
+				076A28550A365548009AB03C,
+				076A28560A365548009AB03C,
+				076A28570A365548009AB03C,
+				076A28580A365548009AB03C,
+				076A28590A365548009AB03C,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		F541E446026E422A01CA2184 = {
+			isa = PBXGroup;
+			children = (
+				07764F760C3B12C0005376A8,
+				F5823D4D026E442901CA2184,
+				F5B34E75026E512801CA2184,
+				F541E45D026E433301CA2184,
+			);
+			sourceTree = "<group>";
+		};
+		F541E45D026E433301CA2184 = {
+			isa = PBXGroup;
+			children = (
+				00AAAE57066694F2000669EC,
+				076A23780A363200009AB03C,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5823D4D026E442901CA2184 = {
+			isa = PBXGroup;
+			children = (
+				F5823D4E026E445801CA2184,
+				F5823F87026E447001CA2184,
+			);
+			name = Source;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F5823D4E026E445801CA2184 = {
+			isa = PBXGroup;
+			children = (
+				07DE6A650B8FA95B00F703CF,
+				F5823D4F026E445801CA2184,
+				F5823D5D026E445801CA2184,
+			);
+			name = AudioCodecs;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5823D4F026E445801CA2184 = {
+			isa = PBXGroup;
+			children = (
+				F5823D50026E445801CA2184,
+				F5823D51026E445801CA2184,
+				F5823D52026E445801CA2184,
+				F5823D53026E445801CA2184,
+				F5823D54026E445801CA2184,
+				07FA8C3D0C359A7F0072A202,
+				0A9B062B04D719E70070DEF0,
+				0A9B062C04D719E70070DEF0,
+			);
+			path = ACPublic;
+			sourceTree = "<group>";
+		};
+		F5823D5D026E445801CA2184 = {
+			isa = PBXGroup;
+			children = (
+				076A22E70A362FF1009AB03C,
+			);
+			path = Codecs;
+			sourceTree = "<group>";
+		};
+		F5823F87026E447001CA2184 = {
+			isa = PBXGroup;
+			children = (
+				073C8AC40882F605001A4B0C,
+				073C8AC50882F605001A4B0C,
+				073C8AC60882F605001A4B0C,
+				3E4AD0D707959DB20054EF45,
+				3E4AD0C607959DB20054EF45,
+				F5823F9A026E447001CA2184,
+				3E4AD18607959E5A0054EF45,
+				F5823F9B026E447001CA2184,
+				00A91A150479ADB600CA2094,
+				077BE24F04FE826600CA25C5,
+				00C8654D05ACEA0500A9C28C,
+				077BE25104FE826600CA25C5,
+				00C8655105ACEA3D00A9C28C,
+				F5823F9E026E447001CA2184,
+				00C8656205ACEFAF00A9C28C,
+				00C8656105ACEFAF00A9C28C,
+				F5823FA2026E447001CA2184,
+				F5823FA1026E447001CA2184,
+				9136719804574F9F00CA2136,
+				9136719704574F9F00CA2136,
+				07C68D5C053B6FAB00CA25C5,
+				07C68D54053B6F7B00CA25C5,
+				07C68D5D053B6FAB00CA25C5,
+				07C68D55053B6F7B00CA25C5,
+				07C68D5E053B6FAB00CA25C5,
+				3E4AD12807959DDC0054EF45,
+				07C68D5F053B6FAB00CA25C5,
+				3E4AD13907959DDC0054EF45,
+			);
+			name = PublicUtility;
+			path = /Developer/Examples/CoreAudio/PublicUtility;
+			sourceTree = "<absolute>";
+		};
+		F5B34E75026E512801CA2184 = {
+			isa = PBXGroup;
+			children = (
+				F5B34E82026E54FF01CA2184,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00AAAD82066694F1000669EC = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AAAD8A066694F1000669EC,
+				073C8AC80882F605001A4B0C,
+				073C8AC90882F605001A4B0C,
+				07DE6BA90B8FB69B00F703CF,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A23740A363200009AB03C = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00AAAD80066694F1000669EC = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B7827E08B513C600A1DF57;
+			buildPhases = (
+				00AAAD82066694F1000669EC,
+				00AAAD8B066694F1000669EC,
+				00AAAD8D066694F1000669EC,
+				00AAAE36066694F1000669EC,
+				00AAAE39066694F1000669EC,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076A2B740A3A3A4A009AB03C,
+			);
+			name = "FLAC component";
+			productInstallPath = "$(USER_LIBRARY_DIR)/Bundles";
+			productName = "AudioCodecs+SMAC";
+			productReference = 00AAAE57066694F2000669EC;
+			productType = "com.apple.product-type.bundle";
+		};
+		076A23770A363200009AB03C = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076A23DB0A363238009AB03C;
+			buildPhases = (
+				076A23740A363200009AB03C,
+				076A23750A363200009AB03C,
+				076A23760A363200009AB03C,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libFLAC;
+			productName = libFLAC;
+			productReference = 076A23780A363200009AB03C;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F541E44A026E422A01CA2184 = {
+			isa = PBXProject;
+			buildConfigurationList = 07B7828608B513C600A1DF57;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = F541E446026E422A01CA2184;
+			productRefGroup = F541E45D026E433301CA2184;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00AAAD80066694F1000669EC,
+				076A23770A363200009AB03C,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00AAAD8B066694F1000669EC = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		00AAAE39066694F1000669EC = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076A28620A365548009AB03C,
+				076A28650A365548009AB03C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00AAAD8D066694F1000669EC = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AAAD97066694F1000669EC,
+				00AAAD98066694F1000669EC,
+				00AAAE13066694F1000669EC,
+				00AAAE17066694F1000669EC,
+				00AAAE19066694F1000669EC,
+				00AAAE1A066694F1000669EC,
+				00AAAE1B066694F1000669EC,
+				00AAAE1C066694F1000669EC,
+				00AAAE1F066694F1000669EC,
+				3E4AD0F507959DB20054EF45,
+				3E4AD15707959DDC0054EF45,
+				3E4AD15907959DDC0054EF45,
+				3E4AD19C07959E5A0054EF45,
+				073C8AC70882F605001A4B0C,
+				076A285E0A365548009AB03C,
+				076A28600A365548009AB03C,
+				076A28630A365548009AB03C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A23750A363200009AB03C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076A23B20A363238009AB03C,
+				076A23B30A363238009AB03C,
+				076A23B40A363238009AB03C,
+				076A23B70A363238009AB03C,
+				076A23B80A363238009AB03C,
+				076A23B90A363238009AB03C,
+				076A23DA0A363238009AB03C,
+				076A23E20A3632A9009AB03C,
+				076A23E30A3632A9009AB03C,
+				076A23E60A3632AC009AB03C,
+				076A23E70A3632AC009AB03C,
+				076A23E80A3632AD009AB03C,
+				076A23E90A3632AE009AB03C,
+				076A23EA0A3632AE009AB03C,
+				07C6112E0C3AE252005376A8,
+				07C6112F0C3AE252005376A8,
+				07C611380C3AE279005376A8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		076A2B740A3A3A4A009AB03C = {
+			isa = PBXTargetDependency;
+			target = 076A23770A363200009AB03C;
+			targetProxy = 076A2B730A3A3A4A009AB03C;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		076A23DC0A363238009AB03C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					.,
+					Codecs/FLAC/libFLAC/include,
+					Codecs/FLAC/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = FLAC;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = "Release - All Variants";
+		};
+		076A23DD0A363238009AB03C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					.,
+					Codecs/FLAC/libFLAC/include,
+					Codecs/FLAC/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = FLAC;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		076A23DE0A363238009AB03C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					Codecs/FLAC/libFLAC/include,
+					Codecs/FLAC/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = FLAC;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		076A23DF0A363238009AB03C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					.,
+					Codecs/FLAC/libFLAC/include,
+					Codecs/FLAC/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = FLAC;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = "Development-Optimized";
+		};
+		07B7827F08B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUILD_VARIANTS = (
+					normal,
+					debug,
+					profile,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = NO;
+				EXPORTED_SYMBOLS_FILE = "";
+				EXPORTED_SYMBOLS_FILE_i386 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc64 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_x86_64 = Codecs/FLAC/FLAC.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+				);
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"TARGET_CARBON=1",
+				);
+				HEADER_SEARCH_PATHS = /System/Library/Frameworks/AudioUnit.framework/Versions/A/Headers;
+				INFOPLIST_FILE = "Codecs/FLAC/Info-FLAC.plist";
+				INSTALL_PATH = /System/Library/Components;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+				);
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "-force_cpusubtype_ALL";
+				OTHER_CFLAGS_debug = "-DDEBUG -DCoreAudio_Debug=1";
+				OTHER_CFLAGS_profile = "-pg";
+				OTHER_CPLUSPLUSFLAGS_debug = "$(OTHER_CFLAGS_debug)";
+				OTHER_CPLUSPLUSFLAGS_profile = "-pg";
+				OTHER_LDFLAGS = "-lFLAC";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers\n";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = FLAC;
+				PROFILING_CODE = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = "";
+				SECTORDER_FLAGS = (
+					"-e",
+					start,
+				);
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = "Release - All Variants";
+		};
+		07B7828008B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = NO;
+				EXPORTED_SYMBOLS_FILE = "";
+				EXPORTED_SYMBOLS_FILE_i386 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc64 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_x86_64 = Codecs/FLAC/FLAC.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+				);
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"TARGET_CARBON=1",
+				);
+				HEADER_SEARCH_PATHS = /System/Library/Frameworks/AudioUnit.framework/Versions/A/Headers;
+				INFOPLIST_FILE = "Codecs/FLAC/Info-FLAC.plist";
+				INSTALL_PATH = /System/Library/Components;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+				);
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "-force_cpusubtype_ALL";
+				OTHER_CFLAGS_debug = "-DDEBUG -DCoreAudio_Debug=1";
+				OTHER_CFLAGS_profile = "-pg";
+				OTHER_CPLUSPLUSFLAGS_debug = "$(OTHER_CFLAGS_debug)";
+				OTHER_CPLUSPLUSFLAGS_profile = "-pg";
+				OTHER_LDFLAGS = "-lFLAC";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers\n";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_NAME = FLAC;
+				PROFILING_CODE = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = "";
+				SECTORDER_FLAGS = (
+					"-e",
+					start,
+				);
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		07B7828108B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				EXPORTED_SYMBOLS_FILE = "";
+				EXPORTED_SYMBOLS_FILE_i386 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc64 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_x86_64 = Codecs/FLAC/FLAC.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+				);
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"TARGET_CARBON=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /System/Library/Frameworks/AudioUnit.framework/Versions/A/Headers;
+				INFOPLIST_FILE = "Codecs/FLAC/Info-FLAC.plist";
+				INSTALL_PATH = /System/Library/Components;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+				);
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = (
+					"-force_cpusubtype_ALL",
+					"-DCoreAudio_Debug=1",
+				);
+				OTHER_CFLAGS_debug = "-DDEBUG -DCoreAudio_Debug=1";
+				OTHER_CFLAGS_profile = "-pg";
+				OTHER_CPLUSPLUSFLAGS_debug = "$(OTHER_CFLAGS_debug)";
+				OTHER_CPLUSPLUSFLAGS_profile = "-pg";
+				OTHER_LDFLAGS = "-lFLAC";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers\n";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = FLAC;
+				PROFILING_CODE = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = "";
+				SECTORDER_FLAGS = (
+					"-e",
+					start,
+				);
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		07B7828208B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				EXPORTED_SYMBOLS_FILE = "";
+				EXPORTED_SYMBOLS_FILE_i386 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_ppc64 = Codecs/FLAC/FLAC.exp;
+				EXPORTED_SYMBOLS_FILE_x86_64 = Codecs/FLAC/FLAC.exp;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+				);
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"TARGET_CARBON=1",
+				);
+				HEADER_SEARCH_PATHS = /System/Library/Frameworks/AudioUnit.framework/Versions/A/Headers;
+				INFOPLIST_FILE = "Codecs/FLAC/Info-FLAC.plist";
+				INSTALL_PATH = /System/Library/Components;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+				);
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = (
+					"-force_cpusubtype_ALL",
+					"-DCoreAudio_Debug=1",
+				);
+				OTHER_CFLAGS_debug = "-DDEBUG -DCoreAudio_Debug=1";
+				OTHER_CFLAGS_profile = "-pg";
+				OTHER_CPLUSPLUSFLAGS_debug = "$(OTHER_CFLAGS_debug)";
+				OTHER_CPLUSPLUSFLAGS_profile = "-pg";
+				OTHER_LDFLAGS = "-lFLAC";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -i / -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers\n";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = FLAC;
+				PROFILING_CODE = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = "";
+				SECTORDER_FLAGS = (
+					"-e",
+					start,
+				);
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = NO;
+			};
+			name = "Development-Optimized";
+		};
+		07B7828708B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = .;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = "Release - All Variants";
+		};
+		07B7828808B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = .;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		07B7828908B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Development;
+		};
+		07B7828A08B513C600A1DF57 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = .;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = "Development-Optimized";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076A23DB0A363238009AB03C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076A23DC0A363238009AB03C,
+				076A23DD0A363238009AB03C,
+				076A23DE0A363238009AB03C,
+				076A23DF0A363238009AB03C,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - All Variants";
+		};
+		07B7827E08B513C600A1DF57 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B7827F08B513C600A1DF57,
+				07B7828008B513C600A1DF57,
+				07B7828108B513C600A1DF57,
+				07B7828208B513C600A1DF57,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - All Variants";
+		};
+		07B7828608B513C600A1DF57 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B7828708B513C600A1DF57,
+				07B7828808B513C600A1DF57,
+				07B7828908B513C600A1DF57,
+				07B7828A08B513C600A1DF57,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release - All Variants";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F541E44A026E422A01CA2184;
+}

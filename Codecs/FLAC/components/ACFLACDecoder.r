@@ -39,18 +39,19 @@
 			POSSIBILITY OF SUCH DAMAGE.
 */
 /*=============================================================================
-	ACMVersions.h
-	AudioCodecs
-
-	Created by Eric M. Aldrich I on Mon Oct 04 2004.
-	Copyright (c) 2004 Apple Computer Inc. All rights reserved.
+	ACFLACDecoder.r
 
 =============================================================================*/
+// AUResources.h defines the macros to build thng resources needed by the Component Manager
 
-#if !defined(__ACVersions_IMA_h__)
-#define __ACVersions_IMA_h__
+#define RES_ID			-20822
+#define COMP_TYPE		'adec'
+#define COMP_SUBTYPE	'flac'
+#define COMP_MANUF		'appl'
+#define VERSION			0x00010001
+#define NAME			"FLAC Decoder"
+#define DESCRIPTION		"An AudioCodec that decodes FLAC into linear PCM data"
+#define ENTRY_POINT		"ACFLACDecoderEntry"
 
-#define kIMA4adecVersion			0x00010002
-#define kIMA4aencVersion			0x00010002
 
-#endif
+#include "/Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase/AUResources.r"
